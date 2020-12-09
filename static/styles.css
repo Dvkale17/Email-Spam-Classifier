@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(90deg, skyblue, rgb(75, 182, 224));
+}
+
+.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(43, 5, 5);
+}
+form {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+form select {
+  width: 50%;
+  height: 2rem;
+  background-color: rgb(53, 0, 53);
+  color: whitesmoke;
+}
+
+form input {
+  width: 50%;
+  height: 2rem;
+  background-color: rgb(53, 0, 53);
+  color: whitesmoke;
+}
+
+.login button {
+  width: 50%;
+  height: 2rem;
+  background-color: rgb(25, 36, 48);
+  color: whitesmoke;
+}
+
+.output {
+    position: absolute;
+    float: center;
+    right: 400px;
+}
