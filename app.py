@@ -1,7 +1,6 @@
 from flask import Flask,render_template,url_for,request
 import pandas as pd
 import pickle
-import jsonify
 import requests
 from sklearn.preprocessing import StandardScaler
 # load the model from disk
